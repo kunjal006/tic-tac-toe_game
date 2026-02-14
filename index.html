@@ -9,23 +9,29 @@
 <body>
     <header> <h1>Tic Tac Toe </h1></header>
     <main>
-   
-    <div class="game-board">
-        <div class="game">
-            <button class="box">X</button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
+        <div class="notify hide">
+            <p id="msg">Winner</p>
+            <button id="new-game">New Game</button>
         </div>
-    </div>
+        <div class="game-board">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+
+        <button id="reset">Reset</button>
+
     </main>
 
     
-    <script src="logic.js"></script>
+<script src="logic.js"></script>
 </body>
 </html>
