@@ -39,3 +39,14 @@ body {
     color: #7F5C62;
     background-color: #c9b4a5;
 }
+
+h1 {
+    background-color: #9D3750;
+    color: #2E313B;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 20px auto;
+    display: inline-block;
+    border-radius: 10px;   
+}
