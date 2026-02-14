@@ -50,3 +50,39 @@ h1 {
     display: inline-block;
     border-radius: 10px;   
 }
+
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #8E454C;
+    color: #C9B4A5;
+    border-radius: 1.25rem;
+    border: none;
+}
+
+#new-game {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #8E454C;
+    color: #C9B4A5;
+    border-radius: 1.25rem;
+    border: none;
+}
+
+#msg{
+    color: #C9B4A5;
+    font-size: 5vmin;
+}
+
+.notify{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
