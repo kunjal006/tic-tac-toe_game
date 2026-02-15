@@ -60,3 +60,21 @@ const disableBoxes = () => {
         box.disabled = true;
     }
 };
+
+const enableboxes = () => {
+    for (let box of boxes){
+        box.disabled = false;
+        box.innerText ="";
+    }
+};
+
+const reset = () =>{
+    turn0 = true;
+    notify.classList.add("hide");
+    enableboxes();
+};
+
+
+
+resetbtn.addEventListener("click" , reset );
+newgame.addEventListener("click" , reset );
